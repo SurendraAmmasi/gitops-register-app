@@ -1,5 +1,5 @@
 CD with EKS & ArgoCD
-![image](https://github.com/SurendraAmmasi/register-app/assets/147749645/a972dccf-d3ef-40ae-bdcc-8eff0336f8bb)
+![image](https://github.com/SurendraAmmasi/gitops-register-app/assets/147749645/5b6b4354-5f24-4590-927c-05f0733dea75)
 
 ============================================================= Setup Bootstrap Server for eksctl and Setup Kubernetes using eksctl =============================================================
 ## Install AWS Cli on the above EC2
