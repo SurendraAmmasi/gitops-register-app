@@ -1,16 +1,16 @@
 pipeline {
-    agent{label 'Jenkins-Agent'}
+    agent{ label 'Jenkins-Agent' }
     environment{
             APP_NAME = "register-app-pipeline"
     }
     
     stages{
-    stage("Cleanup Workspace"){
+        stage("Cleanup Workspace"){
                 steps{
                     cleanWs()
             }
         }
-    }
+    
 
     stage("Checkout from SCM"){
         steps{
@@ -41,4 +41,5 @@ pipeline {
                 }
             }
         }        
+    }
 }
